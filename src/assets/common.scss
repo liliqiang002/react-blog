@@ -1,0 +1,20 @@
+$main-color: #61dafb;
+$page-content-wrap-width: 1200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.1;
+}
+.page-content-wrap {
+  width: $page-content-wrap-width;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}

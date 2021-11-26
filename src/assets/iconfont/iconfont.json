@@ -1,0 +1,23 @@
+{
+  "id": "2961887",
+  "name": "react-blog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7192343",
+      "name": "T-加粗",
+      "font_class": "T-jiacu",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "7192349",
+      "name": "T-倾斜",
+      "font_class": "T-qingxie",
+      "unicode": "e71e",
+      "unicode_decimal": 59166
+    }
+  ]
+}

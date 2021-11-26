@@ -1,0 +1,40 @@
+@import '../../assets/common.scss';
+.header-container {
+  height: 60px;
+  background-color: #20232a;
+  .page-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+    .text {
+      font-size: 22px;
+      color: #61dafb;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      margin-bottom: 0;
+      li {
+        margin-left: 30px;
+        a {
+          color: #ffffff;
+          &.active {
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
+}

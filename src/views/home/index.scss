@@ -1,0 +1,21 @@
+.home-container {
+  background-color: #282c34;
+  color: #ffffff;
+  padding-top: 95px;
+  padding-bottom: 85px;
+  .banner {
+    .banner-content {
+      h1 {
+        text-align: center;
+        color: #61dafb;
+        font-size: 60px;
+      }
+      .text {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

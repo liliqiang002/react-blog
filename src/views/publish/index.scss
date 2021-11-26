@@ -1,0 +1,52 @@
+.publish-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  .publish-header {
+    display: flex;
+    .cat-box {
+      background-color: #f5f5f5;
+      .cascader-box {
+        width: 220px;
+        background-color: #ffffff;
+        height: 45px;
+        .ant-cascader-picker-label {
+          color: #61dafb;
+        }
+        .ant-input {
+          line-height: 45px;
+          padding: 0 11px;          
+        }
+      }
+    }
+    .title {
+      flex: 1;
+      border-left: 2px solid #f5f5f5;
+      .ant-input {
+        width: 100%;
+        line-height: 45px;
+        padding: 0 15px;
+      }
+    }
+    .save-btn {
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(97, 218, 251);
+      padding: 0 40px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all .3s;
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+  .editor-container {
+    flex: 1;
+    overflow: hidden;
+  }
+}
