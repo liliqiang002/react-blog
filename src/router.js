@@ -9,7 +9,7 @@ import Publish from './views/publish';
 import NoMatch from './views/nomatch';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route element={<Layout />}>
           <Route path="home" element={<Home />}></Route>
